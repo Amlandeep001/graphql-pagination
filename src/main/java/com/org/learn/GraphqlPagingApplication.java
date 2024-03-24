@@ -9,7 +9,6 @@ import com.github.javafaker.Faker;
 @SpringBootApplication
 public class GraphqlPagingApplication
 {
-
 	public static void main(String[] args)
 	{
 		SpringApplication.run(GraphqlPagingApplication.class, args);
@@ -20,11 +19,4 @@ public class GraphqlPagingApplication
 	{
 		return new Faker();
 	}
-
-	// @Bean
-	// public CommandLineRunner runner(PersonRepository repository) {
-	// return args -> {
-	// // do stuff
-	// };
-	// }
 }
