@@ -20,11 +20,11 @@ public class Address
 {
 	@Id
 	@GeneratedValue
-	private Integer id;
-	private String address;
-	private String city;
-	private String state;
-	private String zip;
+	Integer id;
+	String address;
+	String city;
+	String state;
+	String zip;
 
 	public Address(String address, String city, String state, String zip)
 	{
